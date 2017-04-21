@@ -1,0 +1,51 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #53443F;
+  border-top-right-radius: 10px;
+  padding: 10px 10px 0 10px;
+}
+
+
+.tab {
+  background-color: #6D615D;
+  color: white;
+  flex: 1 0 auto;
+  padding: 10px 0;
+}
+
+.tab h3 {
+  font-family: 'Raleway';
+  font-size: 17px;
+}
+
+.tab p {
+  font-size: 16px ;
+}
+
+.tab:first-child {
+  border-top-left-radius: 10px;
+}
+
+.tab:last-child {
+  border-top-right-radius: 10px;
+}
+
+.tab p {
+  color: #B5AFAD;
+}
+
+.active {
+  background-color: white;
+}
+
+.active h3 {
+  background-color: white;
+  color: black;
+}
+
+.active p {
+  background-color: white;
+  color: #B5AFAD;
+  font-weight: 300;
+}
